@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Virtual Cafe - Start Bootstrap Theme</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Virtual Cafe - Start Bootstrap Theme</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        /* Keeps your background image clearly visible */
+        header.masthead {
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 75%, rgba(0,0,0,1) 100%), url('assets/img/bg-masthead.jpg') !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+
+            /* Purple gradient banner with neon text outline and glow */
+            header.masthead h1 {
+                color: #ffffff !important;
+                -webkit-text-fill-color: #ffffff !important;
+                background: linear-gradient(135deg, rgba(74, 0, 224, 0.7) 0%, rgba(142, 45, 226, 0.7) 100%) !important;
+                padding: 15px 35px;
+                display: inline-block;
+                border-radius: 8px;
+                box-shadow: 0 8px 25px rgba(114, 9, 183, 0.6);
+                /* Neon Outline & Glow Effect */
+                -webkit-text-stroke: 1px #00f3ff; /* Electric cyan neon stroke outline */
+                text-shadow: 0 0 10px rgba(0, 243, 255, 0.8), 0 0 20px rgba(0, 243, 255, 0.4), 0 4px 6px rgba(0, 0, 0, 0.6);
+            }
+    </style>
+</head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -39,7 +62,7 @@
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
                         <h1 class="mx-auto my-0 text-uppercase">Virtual Cafe</h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5">A free, responsive, one page Bootstrap theme created by Start Bootstrap.</h2>
+                        <h2 class="text-white mx-auto mt-4 mb-5">Modern Gaming Lounge &amp; High-Speed Network Simulation.</h2>
                         <a class="btn btn-primary" href="#about">Get Started</a>
                     </div>
                 </div>
@@ -73,33 +96,36 @@
                 </div>
                 <!-- 5-Column Team Grid -->
                 <div class="row gx-3 justify-content-center">
-                    <!-- Member 1: Alia -->
+                    <!-- Member 1: Anis (Team Leader) -->
+                    <div class="col-md-2 mb-4">
+                        <div class="card h-100 py-3 text-center">
+                            <img src="assets/img/Anis.jpg" class="card-img-top px-3 mb-2" alt="Anis Athirah" style="border-radius: 8px;">
+                            <div class="card-body px-2">
+                                <h6 class="text-uppercase fw-bold text-primary" style="font-size: 0.8rem;">Team Leader</h6>
+                                <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">ANIS ATHIRAH BINTI MOHAMAD NASSER</p>
+                                <p class="text-muted small mb-0">Matric: D032510165</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Member 2: Alia -->
                     <div class="col-md-2 mb-4">
                         <div class="card h-100 py-3 text-center">
                             <img src="assets/img/wawa.jpg" class="card-img-top px-3 mb-2" alt="Alia Najwa" style="border-radius: 8px;">
                             <div class="card-body px-2">
+                                <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
                                 <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">ALIA NAJWA BINTI MOHAMAD KISWADI</p>
                                 <p class="text-muted small mb-0">Matric: D032510138</p>
                             </div>
                         </div>
                     </div>
-                    <!-- Member 2: Kaanisha -->
+                    <!-- Member 3: Kaanisha -->
                     <div class="col-md-2 mb-4">
                         <div class="card h-100 py-3 text-center">
                             <img src="assets/img/kaanisha.jpeg" class="card-img-top px-3 mb-2" alt="Kaanisha" style="border-radius: 8px;">
                             <div class="card-body px-2">
+                                <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
                                 <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">KAANISHA A/P MATHAN</p>
                                 <p class="text-muted small mb-0">Matric: D032510561</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Member 3: Anis -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card h-100 py-3 text-center">
-                            <img src="assets/img/Anis.jpg" class="card-img-top px-3 mb-2" alt="Anis Athirah" style="border-radius: 8px;">
-                            <div class="card-body px-2">
-                                <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">ANIS ATHIRAH BINTI MOHAMAD NASSER</p>
-                                <p class="text-muted small mb-0">Matric: D032510165</p>
                             </div>
                         </div>
                     </div>
@@ -108,6 +134,7 @@
                         <div class="card h-100 py-3 text-center">
                             <img src="assets/img/Aqilah.jpg" class="card-img-top px-3 mb-2" alt="Nur Aqilah Syafiqah" style="border-radius: 8px;">
                             <div class="card-body px-2">
+                                <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
                                 <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">NUR AQILAH SYAFIQAH BINTI ZAKARIA</p>
                                 <p class="text-muted small mb-0">Matric: D032510550</p>
                             </div>
@@ -118,6 +145,7 @@
                         <div class="card h-100 py-3 text-center">
                             <img src="assets/img/Ulfah.jpg" class="card-img-top px-3 mb-2" alt="Ulfah Umairah" style="border-radius: 8px;">
                             <div class="card-body px-2">
+                                <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
                                 <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">ULFAH UMAIRAH BINTI MD REZALE</p>
                                 <p class="text-muted small mb-0">Matric: D032510171</p>
                             </div>
