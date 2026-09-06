@@ -38,218 +38,343 @@
             }
     </style>
 </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Virtual Cafe</a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
-                    </ul>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container px-4 px-lg-5">
+            <a class="navbar-brand" href="#page-top">Virtual Cafe</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div class="d-flex justify-content-center">
+                <div class="text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Virtual Cafe</h1>
+                    <h2 class="text-white mx-auto mt-4 mb-5">Modern Gaming Lounge &amp; High-Speed Network Simulation.</h2>
+                    <a class="btn btn-primary" href="#about">Get Started</a>
                 </div>
             </div>
-        </nav>
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-                <div class="d-flex justify-content-center">
-                    <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Virtual Cafe</h1>
-                        <h2 class="text-white mx-auto mt-4 mb-5">Modern Gaming Lounge &amp; High-Speed Network Simulation.</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+        </div>
+    </header>
+    <!-- About-->
+    <section class="about-section text-center py-5 bg-black" id="about">
+        <div class="container px-4 px-lg-5">
+            <!-- Tagline Badge -->
+            <div class="d-inline-block px-3 py-1 mb-3 rounded-pill" style="background: rgba(0, 243, 255, 0.1); border: 1px solid #00f3ff;">
+                <span class="text-uppercase fw-bold" style="color: #00f3ff; font-size: 0.75rem; letter-spacing: 1px;">
+                    <i class="fas fa-microchip me-1"></i> Station Hardware Specifications
+                </span>
+            </div>
+
+            <h2 class="text-white fw-bold mb-3">Engineered for Competitive Gaming</h2>
+            <p class="text-white-50 mx-auto mb-5" style="max-width: 700px;">
+                Powered by balanced multi-threaded performance, dedicated graphics, and high-refresh IPS displays to ensure high-FPS stability across all stations.
+            </p>
+
+            <!-- Hardware Specs Grid -->
+            <div class="row g-4 justify-content-center">
+                <!-- CPU -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="p-4 rounded h-100 text-center" style="background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <i class="fas fa-server fa-2x mb-3" style="color: #00f3ff;"></i>
+                        <h5 class="text-white fw-bold mb-2">Processor (CPU)</h5>
+                        <p class="text-info fw-bold mb-1">Intel Core i3-12100F</p>
+                        <span class="text-white-50 small">4-Cores / 8-Threads Architecture</span>
+                    </div>
+                </div>
+
+                <!-- GPU -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="p-4 rounded h-100 text-center" style="background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <i class="fas fa-gamepad fa-2x mb-3" style="color: #d946ef;"></i>
+                        <h5 class="text-white fw-bold mb-2">Graphics (GPU)</h5>
+                        <p class="fw-bold mb-1" style="color: #d946ef;">GTX 1650 4GB / RX 6600 8GB</p>
+                        <span class="text-white-50 small">Dedicated High-FPS Gaming Rigs</span>
+                    </div>
+                </div>
+
+                <!-- RAM & Storage -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="p-4 rounded h-100 text-center" style="background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <i class="fas fa-memory fa-2x mb-3" style="color: #00f3ff;"></i>
+                        <h5 class="text-white fw-bold mb-2">Memory &amp; Storage</h5>
+                        <p class="text-info fw-bold mb-1">16GB DDR4 (2x8GB) 3200MHz</p>
+                        <span class="text-white-50 small">512GB Ultra-Fast NVMe M.2 SSD</span>
+                    </div>
+                </div>
+
+                <!-- Display -->
+                <div class="col-md-6 col-sm-6">
+                    <div class="p-4 rounded h-100 text-center" style="background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <i class="fas fa-desktop fa-2x mb-3" style="color: #38bdf8;"></i>
+                        <h5 class="text-white fw-bold mb-2">Gaming Displays</h5>
+                        <p class="fw-bold mb-1" style="color: #38bdf8;">Acer Nitro EK241Y / ViewSonic VX2428</p>
+                        <span class="text-white-50 small">24-Inch IPS Panel | 100Hz – 180Hz Ultra-Smooth Refresh Rate</span>
+                    </div>
+                </div>
+
+                <!-- Peripherals -->
+                <div class="col-md-6 col-sm-12">
+                    <div class="p-4 rounded h-100 text-center" style="background: rgba(255, 255, 255, 0.04); border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <i class="fas fa-headphones fa-2x mb-3" style="color: #a855f7;"></i>
+                        <h5 class="text-white fw-bold mb-2">Pro Gear &amp; Peripherals</h5>
+                        <p class="fw-bold mb-1" style="color: #a855f7;">Full Gaming Suite</p>
+                        <span class="text-white-50 small">Mechanical Gaming Keyboard + Precision Mouse + Surround Sound Headset</span>
                     </div>
                 </div>
             </div>
-        </header>
-        <!-- About-->
-        <section class="about-section text-center" id="about">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8">
-                        <h2 class="text-white mb-4">Built with Bootstrap 5</h2>
-                        <p class="text-white-50">
-                            Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
-                            <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
-                            The theme is open source, and you can use it for any purpose, personal or commercial.
+        </div>
+    </section>
+    <!-- Services & Rates Section -->
+    <section class="services-section text-center py-5" id="services" style="background-color: #0b0f19;">
+        <div class="container px-4 px-lg-5">
+            <!-- Tagline Badge -->
+            <div class="d-inline-block px-3 py-1 mb-3 rounded-pill" style="background: rgba(0, 243, 255, 0.1); border: 1px solid #00f3ff;">
+                <span class="text-uppercase fw-bold" style="color: #00f3ff; font-size: 0.75rem; letter-spacing: 1px;">
+                    <i class="fas fa-tags me-1"></i> Affordable Student Rates
+                </span>
+            </div>
+
+            <h2 class="text-white fw-bold mb-3">Services &amp; Hourly Rates</h2>
+            <p class="text-white-50 mx-auto mb-5" style="max-width: 650px;">
+                Transparent, student-friendly pricing for gaming sessions, study hours, and printing services.
+            </p>
+
+            <!-- Services Grid -->
+            <div class="row g-4 justify-content-center">
+                <!-- Service 1: Gaming Station -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 p-4 text-center" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px;">
+                        <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-circle" style="width: 65px; height: 65px; background: rgba(0, 243, 255, 0.1);">
+                            <i class="fas fa-gamepad fa-2x" style="color: #00f3ff;"></i>
+                        </div>
+                        <h5 class="text-white fw-bold mb-1">Gaming Station</h5>
+                        <div class="my-2">
+                            <span class="fw-bold" style="color: #00f3ff; font-size: 1.6rem;">RM 5.00</span>
+                            <span class="text-white-50 small">/ hour</span>
+                        </div>
+                        <p class="text-white-50 small mb-0">
+                            180Hz displays, GTX/RX graphics rigs, high-speed gaming fiber, and pro peripherals included.
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
-            </div>
-        </section>
-        <!-- Projects-->
-        <!-- Team Section-->
-        <section class="projects-section bg-light" id="projects">
-            <div class="container px-4 px-lg-5">
-                <div class="row text-center mb-5">
-                    <div class="col">
-                        <h2 class="text-black mb-2">Meet Our Team</h2>
-                        <p class="text-black-50">The team behind the development and network design of Virtual Cafe.</p>
+
+                <!-- Service 2: Workstation & Study -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card h-100 p-4 text-center" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px;">
+                        <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-circle" style="width: 65px; height: 65px; background: rgba(217, 70, 239, 0.1);">
+                            <i class="fas fa-laptop-code fa-2x" style="color: #d946ef;"></i>
+                        </div>
+                        <h5 class="text-white fw-bold mb-1">Workstation PC</h5>
+                        <div class="my-2">
+                            <span class="fw-bold" style="color: #d946ef; font-size: 1.6rem;">RM 5.00</span>
+                            <span class="text-white-50 small">/ hour</span>
+                        </div>
+                        <p class="text-white-50 small mb-0">
+                            Dedicated multi-core systems optimized for programming, rendering, coursework, and quiet browsing.
+                        </p>
                     </div>
                 </div>
-                <!-- 5-Column Team Grid -->
-                <div class="row gx-3 justify-content-center">
-                    <!-- Member 1: Anis (Team Leader) -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card h-100 py-3 text-center">
-                            <img src="assets/img/Anis.jpg" class="card-img-top px-3 mb-2" alt="Anis Athirah" style="border-radius: 8px;">
-                            <div class="card-body px-2">
-                                <h6 class="text-uppercase fw-bold text-primary" style="font-size: 0.8rem;">Team Leader</h6>
-                                <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">ANIS ATHIRAH BINTI MOHAMAD NASSER</p>
-                                <p class="text-muted small mb-0">Matric: D032510165</p>
-                            </div>
+
+                <!-- Service 3: Printing Station -->
+                <div class="col-md-4 col-sm-12">
+                    <div class="card h-100 p-4 text-center" style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px;">
+                        <div class="mb-3 mx-auto d-flex align-items-center justify-content-center rounded-circle" style="width: 65px; height: 65px; background: rgba(56, 189, 248, 0.1);">
+                            <i class="fas fa-print fa-2x" style="color: #38bdf8;"></i>
                         </div>
-                    </div>
-                    <!-- Member 2: Alia -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card h-100 py-3 text-center">
-                            <img src="assets/img/wawa.jpg" class="card-img-top px-3 mb-2" alt="Alia Najwa" style="border-radius: 8px;">
-                            <div class="card-body px-2">
-                                <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
-                                <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">ALIA NAJWA BINTI MOHAMAD KISWADI</p>
-                                <p class="text-muted small mb-0">Matric: D032510138</p>
-                            </div>
+                        <h5 class="text-white fw-bold mb-1">Printing &amp; Scanning</h5>
+                        <div class="my-2">
+                            <span class="fw-bold" style="color: #38bdf8; font-size: 1.6rem;">From RM 0.20</span>
+                            <span class="text-white-50 small">/ page</span>
                         </div>
-                    </div>
-                    <!-- Member 3: Kaanisha -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card h-100 py-3 text-center">
-                            <img src="assets/img/kaanisha.jpeg" class="card-img-top px-3 mb-2" alt="Kaanisha" style="border-radius: 8px;">
-                            <div class="card-body px-2">
-                                <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
-                                <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">KAANISHA A/P MATHAN</p>
-                                <p class="text-muted small mb-0">Matric: D032510561</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Member 4: Nur Aqilah -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card h-100 py-3 text-center">
-                            <img src="assets/img/Aqilah.jpg" class="card-img-top px-3 mb-2" alt="Nur Aqilah Syafiqah" style="border-radius: 8px;">
-                            <div class="card-body px-2">
-                                <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
-                                <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">NUR AQILAH SYAFIQAH BINTI ZAKARIA</p>
-                                <p class="text-muted small mb-0">Matric: D032510550</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Member 5: Ulfah -->
-                    <div class="col-md-2 mb-4">
-                        <div class="card h-100 py-3 text-center">
-                            <img src="assets/img/Ulfah.jpg" class="card-img-top px-3 mb-2" alt="Ulfah Umairah" style="border-radius: 8px;">
-                            <div class="card-body px-2">
-                                <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
-                                <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">ULFAH UMAIRAH BINTI MD REZALE</p>
-                                <p class="text-muted small mb-0">Matric: D032510171</p>
-                            </div>
+                        <div class="text-white-50 small mb-0">
+                            <div><strong>B&amp;W:</strong> RM 0.20 / page</div>
+                            <div><strong>Color:</strong> RM 0.50 / page</div>
+                            <div><strong>Scanning:</strong> RM 0.50 / doc</div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Signup-->
-        <section class="signup-section" id="signup">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
-                            </div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
-                            <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
-                        </form>
+        </div>
+    </section>
+    <!-- Team Section-->
+    <section class="projects-section bg-light" id="projects">
+        <div class="container px-4 px-lg-5">
+            <div class="row text-center mb-5">
+                <div class="col">
+                    <h2 class="text-black mb-2">Meet Our Team</h2>
+                    <p class="text-black-50">The team behind the development and network design of Virtual Cafe.</p>
+                </div>
+            </div>
+            <!-- 5-Column Team Grid -->
+            <div class="row gx-3 justify-content-center">
+                <!-- Member 1: Anis (Team Leader) -->
+                <div class="col-md-2 mb-4">
+                    <div class="card h-100 py-3 text-center">
+                        <img src="assets/img/matricanis.jpeg" class="card-img-top px-3 mb-2" alt="Anis Athirah" style="border-radius: 8px;">
+                        <div class="card-body px-2">
+                            <h6 class="text-uppercase fw-bold text-primary" style="font-size: 0.8rem;">Team Leader</h6>
+                            <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">ANIS ATHIRAH BINTI MOHAMAD NASSER</p>
+                            <p class="text-muted small mb-0">Matric: D032510165</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 2: Alia -->
+                <div class="col-md-2 mb-4">
+                    <div class="card h-100 py-3 text-center">
+                        <img src="assets/img/wawa.jpg" class="card-img-top px-3 mb-2" alt="Alia Najwa" style="border-radius: 8px;">
+                        <div class="card-body px-2">
+                            <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
+                            <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">ALIA NAJWA BINTI MOHAMAD KISWADI</p>
+                            <p class="text-muted small mb-0">Matric: D032510138</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 3: Kaanisha -->
+                <div class="col-md-2 mb-4">
+                    <div class="card h-100 py-3 text-center">
+                        <img src="assets/img/kaanisha.jpeg" class="card-img-top px-3 mb-2" alt="Kaanisha" style="border-radius: 8px;">
+                        <div class="card-body px-2">
+                            <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
+                            <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">KAANISHA A/P MATHAN</p>
+                            <p class="text-muted small mb-0">Matric: D032510561</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 4: Nur Aqilah -->
+                <div class="col-md-2 mb-4">
+                    <div class="card h-100 py-3 text-center">
+                        <img src="assets/img/Aqilah.jpg" class="card-img-top px-3 mb-2" alt="Nur Aqilah Syafiqah" style="border-radius: 8px;">
+                        <div class="card-body px-2">
+                            <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
+                            <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">NUR AQILAH SYAFIQAH BINTI ZAKARIA</p>
+                            <p class="text-muted small mb-0">Matric: D032510550</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Member 5: Ulfah -->
+                <div class="col-md-2 mb-4">
+                    <div class="card h-100 py-3 text-center">
+                        <img src="assets/img/matriculfah.png" class="card-img-top px-3 mb-2" alt="Ulfah Umairah" style="border-radius: 8px;">
+                        <div class="card-body px-2">
+                            <h6 class="text-uppercase fw-bold text-muted" style="font-size: 0.8rem;">Team Member</h6>
+                            <p class="text-dark fw-bold mb-1" style="font-size: 0.85rem;">ULFAH UMAIRAH BINTI MD REZALE</p>
+                            <p class="text-muted small mb-0">Matric: D032510171</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Contact-->
-        <section class="contact-section bg-black">
-            <div class="container px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+        </div>
+    </section>
+    <!-- Signup-->
+    <section class="signup-section" id="signup">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                    <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- * * SB Forms Contact Form * *-->
+                    <!-- * * * * * * * * * * * * * * *-->
+                    <!-- This form is pre-integrated with SB Forms.-->
+                    <!-- To make this form functional, sign up at-->
+                    <!-- https://startbootstrap.com/solution/contact-forms-->
+                    <!-- to get an API token!-->
+                    <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <!-- Email address input-->
+                        <div class="row input-group-newsletter">
+                            <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
+                            <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+                        </div>
+                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
+                        <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
+                        <!-- Submit success message-->
+                        <!---->
+                        <!-- This is what your users will see when the form-->
+                        <!-- has successfully submitted-->
+                        <div class="d-none" id="submitSuccessMessage">
+                            <div class="text-center mb-3 mt-2 text-white">
+                                <div class="fw-bolder">Form submission successful!</div>
+                                To activate this form, sign up at
+                                <br />
+                                <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Email</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 mb-3 mb-md-0">
-                        <div class="card py-4 h-100">
-                            <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
-                                <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+1 (555) 902-8832</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                        <!-- Submit error message-->
+                        <!---->
+                        <!-- This is what your users will see when there is-->
+                        <!-- an error submitting the form-->
+                        <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
+                    </form>
                 </div>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="contact-section bg-black">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Address</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Phone</h4>
+                            <hr class="my-4 mx-auto" />
+                            <div class="small text-black-50">+1 (555) 902-8832</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social d-flex justify-content-center">
+                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Your Website 2023</div></footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
 </html>
